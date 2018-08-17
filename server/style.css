@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+
+.r_head{
+    opacity: 5.0;
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    border-width: thick;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+
+.loged_setup
+{
+    margin-top: 220px;
+}
+
+.skw
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    left: calc(50% - 50px);
+}
+
+.r_in
+{
+       background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url("../images/cities.jpeg");
+    /*height: 100vh;*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.l_in
+{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/logged");
+    /*height: 100vh;*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo img
+        {
+            height: 100px;
+            float: left;
+            margin-top: -200px;
+            margin-left: 10px;
+        }
+
+.logo1 img
+        {
+            height: 100px;
+            float: left;
+            margin-top: -85px;
+            margin-left: 10px;
+        }
+
+.back
+{
+    margin-top: 220px;
+}
+
+.logged_in
+{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/logged");
+    /*height: 100vh;*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.register_setup
+{
+    margin-top: 100px;
+}
+
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
